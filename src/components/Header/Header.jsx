@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import css from "./Header.module.scss";
 import { motion } from "framer-motion";
-import { headerVariants } from "../../utils/motion";
+import { getMenuStyles, headerVariants } from "../../utils/motion";
+import { BiMenuAltRight } from "react-icons/bi";
 
 const Header = () => {
-  // Asegúrate de exportar el componente como default
+  const [menuOpened, setMenuOpened] = useState(false);
   return (
     <motion.div
       initial="hidden"
@@ -14,7 +15,10 @@ const Header = () => {
     >
       <div className={`flexCenter innerWidth ${css.container}`}>
         <div className={css.name}>Logo</div>
-        <ul className={`flexCenter ${css.menu}`}>
+        <ul
+          style={getMenuStyles(menuOpened)}
+          className={`flexCenter ${css.menu}`}
+        >
           <li>
             <a href="">Home</a>
           </li>
@@ -28,6 +32,14 @@ const Header = () => {
             <a href="">Contact</a>
           </li>
         </ul>
+        <div
+          className={css.menuIcon}
+          onClick={() => {
+            setMenuOpened((prev) => !prev);
+          }}
+        >
+          <BiMenuAltRight size={30} />
+        </div>
       </div>
     </motion.div>
   );
