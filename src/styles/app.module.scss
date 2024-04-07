@@ -1,6 +1,7 @@
+@import './contants.scss';
 
 .container{
+    overflow-x: clip;
     position: relative;
-    justify-content: space-between;
-    font-weight: 500;
+    color: $primary;
 }
