@@ -1,0 +1,63 @@
+.LandingHeader{
+    display: flex;
+    min-height: 90vh;
+    align-items: center;
+    background-color: #fff;
+    transition: 1s;
+}
+.image_landing{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+.image_landing img{
+    width: 350px;
+    border-radius: 50%;
+}
+.text_landing h3{
+    padding: 0 50px;
+    width: 60%;
+    font-size: 1em;
+}
+.text_landing h2{
+    color: #262626;
+    font-size: 5em;
+    font-weight: 600;
+    padding: 0 50px;
+    margin: 5px;
+}
+
+.text_landing h2 span{
+    position: relative;
+    color: rgba(255, 255, 255, 0.1);
+    animation: displayText 9s infinite;
+    animation-delay: calc(-3s * var(--i));
+}
+.text_landing h2 span::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #971e6e;
+    overflow: hidden;
+    border-right: 4px solid #cf3d36;
+    filter: drop-shadow(0 0 5px #cf3d36) drop-shadow(0 0 25px #971e6e);
+    animation: animate_write 3s linear infinite;
+}
+@keyframes animate_write {
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
+@keyframes displayText {
+    0%{
+        display: inline-block;
+    }
+    33.33%,100%{
+        display: none;
+    }
+}

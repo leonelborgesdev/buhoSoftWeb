@@ -1,3 +1,5 @@
+import "./LandingHeader.css";
+
 export const LandingHeader = () => {
   return (
     <div className="LandingHeader" id="Home">
