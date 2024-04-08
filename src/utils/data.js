@@ -3,7 +3,7 @@ import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
-    name: "Website Design",
+    name: "Web development",
     projects: 76,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
@@ -23,8 +23,8 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "Le ayudaremos a encontrar una solución y resolver su problema. Utilizamos el diseño de procesos para crear productos digitales. Además de eso, también ayuda a su negocio.",
+  "Utilizamos el diseño de procesos para crear productos digitales. Además de eso también ayuda a su negocio.ss",
 ];
 
 export const workExp = [
