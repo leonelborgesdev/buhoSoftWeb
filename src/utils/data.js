@@ -23,8 +23,9 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "Le ayudaremos a encontrar una solución y resolver su problema. Utilizamos el diseño de procesos para crear productos digitales. Además de eso, también ayuda a su negocio.",
-  "Utilizamos el diseño de procesos para crear productos digitales. Además de eso también ayuda a su negocio.ss",
+  "Le ayudaremos a encontrar una solución y resolver su problema. Utilizamos el diseño de procesos para crear productos digitales.",
+  "Ayudamos a crear el cambio en tu negocio.",
+  "Proveemos software de calidad, que te permite mejorar y agilizar los procesos, identificar su rentabilidad y tener un panorama completo de la organizacion y cada una de sus operaciones.",
 ];
 
 export const workExp = [
