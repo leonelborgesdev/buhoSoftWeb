@@ -4,19 +4,19 @@ import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
     name: "Web development",
-    projects: 76,
+    projects: "Creamos Paginas Web Para tu Empresa o Negocio",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
     name: "Mobile App Design",
-    projects: 63,
+    projects: "Diseñamos Sistemas de Informacion Para Aplicaciones Moviles",
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
-    projects: 47,
+    name: "Technical Support",
+    projects: "Brindamos Soporte Tecnico de su Sistema de Informacion",
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },
