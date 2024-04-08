@@ -1,6 +1,6 @@
 .LandingHeader{
     display: flex;
-    min-height: 90vh;
+    min-height: 80vh;
     align-items: center;
     background-color: #fff;
     transition: 1s;
