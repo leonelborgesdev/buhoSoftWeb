@@ -8,7 +8,7 @@ function App() {
   return (
     <div className={`bg-primary ${css.container}`}>
       <Header />
-      <Hero />
+      {/* <Hero /> */}
       <Experties />
     </div>
   );
