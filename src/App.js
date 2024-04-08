@@ -1,6 +1,7 @@
 import Experties from "./components/Experties/Experties";
 import Header from "./components/Header/Header"; // Importar como default export
 import Hero from "./components/Hero/Hero";
+import { LandingHeader } from "./components/LandingHeader/LandingHeader";
 
 import css from "./styles/app.module.scss";
 
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className={`bg-primary ${css.container}`}>
       <Header />
-      {/* <Hero /> */}
+      <LandingHeader />
       <Experties />
     </div>
   );
