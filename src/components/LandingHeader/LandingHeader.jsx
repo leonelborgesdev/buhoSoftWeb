@@ -4,8 +4,8 @@ export const LandingHeader = () => {
   return (
     <div className="LandingHeader" id="Home">
       <div className="text_landing">
+        <h2>We are</h2>
         <h2>
-          {"We're "}
           <span style={{ "--i": "0" }} data-text={" Coders."}>
             Coders.
           </span>
