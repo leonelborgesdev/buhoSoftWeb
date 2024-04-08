@@ -1,6 +1,5 @@
 import Experties from "./components/Experties/Experties";
-import Header from "./components/Header/Header"; // Importar como default export
-import Hero from "./components/Hero/Hero";
+import Header from "./components/Header/Header";
 import { LandingHeader } from "./components/LandingHeader/LandingHeader";
 
 import css from "./styles/app.module.scss";
