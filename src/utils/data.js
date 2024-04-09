@@ -28,6 +28,12 @@ export const WhatDoIHelp = [
   "Proveemos software de calidad, que te permite mejorar y agilizar los procesos, identificar su rentabilidad y tener un panorama completo de la organizacion y cada una de sus operaciones.",
 ];
 
+export const WhoWeAreParagra = [
+  "Somos un grupo de Desarrolladores Web.",
+  "Ayudamos a crear el cambio en tu negocio.",
+  "Proveemos software de calidad, que te permite mejorar y agilizar los procesos, identificar su rentabilidad y tener un panorama completo de la organizacion y cada una de sus operaciones.",
+];
+
 export const workExp = [
   {
     place: "Self-Employed, Brisbane",
