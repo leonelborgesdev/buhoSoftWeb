@@ -1,0 +1,23 @@
+@import "../../styles/contants.scss";
+
+.wrapper {
+    background-color: #fff;
+
+    .container{
+        align-items: flex-start;
+        gap: 2rem;
+        flex-wrap: wrap;
+        >div{
+            flex: 1;
+        }
+        .leftSide{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            >img{
+                max-width: 450px;
+            }
+        }
+    }
+}
