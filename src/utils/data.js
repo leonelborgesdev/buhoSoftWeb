@@ -22,14 +22,12 @@ export const projectExperience = [
   },
 ];
 
-export const WhatDoIHelp = [
-  "Le ayudaremos a encontrar una solución y resolver su problema. Utilizamos el diseño de procesos para crear productos digitales.",
-  "Ayudamos a crear el cambio en tu negocio.",
+export const WhoWeAreParagra = [
   "Proveemos software de calidad, que te permite mejorar y agilizar los procesos, identificar su rentabilidad y tener un panorama completo de la organizacion y cada una de sus operaciones.",
 ];
 
-export const WhoWeAreParagra = [
-  "Somos un grupo de Desarrolladores Web.",
+export const WhatDoIHelp = [
+  "Le ayudaremos a encontrar una solución y resolver su problema. Utilizamos el diseño de procesos para crear productos digitales.",
   "Ayudamos a crear el cambio en tu negocio.",
   "Proveemos software de calidad, que te permite mejorar y agilizar los procesos, identificar su rentabilidad y tener un panorama completo de la organizacion y cada una de sus operaciones.",
 ];

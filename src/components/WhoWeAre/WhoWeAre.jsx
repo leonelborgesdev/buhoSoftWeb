@@ -9,17 +9,20 @@ const WhoWeAre = () => {
       <div
         className={`paddings yPaddings innerWidth flexCenter ${css.container}`}
       >
-        <div className={css.leftSide}>
-          <img src={teamProgramers} alt="" />
-        </div>
         <div className={css.rightSide}>
           <span className="secondaryText">Quienes Somos</span>
           <span className="primaryText">Somos Desarrolladores Web</span>
+          {console.log(WhoWeAreParagra)}
           {WhoWeAreParagra.map((paragraph, i) => {
-            <span className="secondaryText" key={i}>
-              {paragraph}
-            </span>;
+            return (
+              <span className="secondaryText" key={i}>
+                {paragraph}
+              </span>
+            );
           })}
+        </div>
+        <div className={css.leftSide}>
+          <img src={teamProgramers} alt="" />
         </div>
       </div>
     </section>
