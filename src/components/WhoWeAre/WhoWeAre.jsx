@@ -15,6 +15,9 @@ const WhoWeAre = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`paddings yPaddings innerWidth flexCenter ${css.container}`}
       >
+        <motion.div variants={textVariant(0.5)} className={css.leftSide}>
+          <img src={teamProgramers} alt="" />
+        </motion.div>
         <motion.div variants={textVariant(0.5)} className={css.rightSide}>
           <span className="secondaryText">Quienes Somos</span>
           <span className="primaryText">Somos Desarrolladores Web</span>
@@ -27,9 +30,6 @@ const WhoWeAre = () => {
             );
           })}
         </motion.div>
-        <div className={css.leftSide}>
-          <img src={teamProgramers} alt="" />
-        </div>
       </motion.div>
     </section>
   );
