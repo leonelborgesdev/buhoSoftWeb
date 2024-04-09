@@ -20,7 +20,9 @@ const WhoWeAre = () => {
         </motion.div>
         <motion.div variants={textVariant(0.5)} className={css.rightSide}>
           <span className="secondaryText">Quienes Somos</span>
-          <span className="primaryText">Somos Desarrolladores Web</span>
+          <span className="primaryText">
+            Somos <span className={css.shadow}>Desarrolladores Web</span>
+          </span>
           {console.log(WhoWeAreParagra)}
           {WhoWeAreParagra.map((paragraph, i) => {
             return (
