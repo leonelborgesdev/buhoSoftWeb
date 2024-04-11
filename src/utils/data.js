@@ -6,19 +6,19 @@ export const projectExperience = [
     name: "Web development",
     projects: "Creamos Paginas Web Para tu Empresa o Negocio",
     icon: HiOutlineDesktopComputer,
-    bg: "#286F6C",
+    bg: "#cf3d36",
   },
   {
     name: "Mobile App Design",
     projects: "Diseñamos Sistemas de Informacion Para Aplicaciones Moviles",
     icon: CiMobile1,
-    bg: "#EEC048",
+    bg: "#971e6e",
   },
   {
     name: "Technical Support",
     projects: "Brindamos Soporte Tecnico de su Sistema de Informacion",
     icon: MdWorkspacesOutline,
-    bg: "#F26440",
+    bg: "#5736cf",
   },
 ];
 
