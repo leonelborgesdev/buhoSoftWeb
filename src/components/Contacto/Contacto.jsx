@@ -27,7 +27,7 @@ export const Contacto = () => {
   };
   return (
     <form ref={form} onSubmit={handleEnviarEmail}>
-      <div className="container_all_contact">
+      <div className="container_all_contact" id={"light"}>
         <div className="container_body_contact">
           <div className="inputBox">
             <input type="text" required="required" name="name" />

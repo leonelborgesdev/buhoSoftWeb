@@ -1,8 +1,12 @@
 .container_all_contact{
+    display: flex;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .container_body_contact{
     display: flex;
@@ -10,7 +14,7 @@
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    background: #0c192c;
+    width: 96%
 }
 .buton_submit_send input{
     width: 120px;
