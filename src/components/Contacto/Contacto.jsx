@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
-import { useSelector } from "react-redux";
 import emailjs from "emailjs-com";
-import "./Contacto.css";
+// import "./Contacto.css";
 
 export const Contacto = () => {
   const form = useRef();

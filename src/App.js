@@ -1,3 +1,4 @@
+import { Contacto } from "./components/Contacto/Contacto";
 import Experties from "./components/Experties/Experties";
 import Header from "./components/Header/Header";
 import { LandingHeader } from "./components/LandingHeader/LandingHeader";
@@ -12,6 +13,7 @@ function App() {
       <LandingHeader />
       <WhoWeAre />
       <Experties />
+      <Contacto />
     </div>
   );
 }
