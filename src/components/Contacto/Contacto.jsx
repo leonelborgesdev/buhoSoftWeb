@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
-// import "./Contacto.css";
+import "./Contacto.css";
 
 export const Contacto = () => {
   const form = useRef();
@@ -15,9 +15,11 @@ export const Contacto = () => {
       )
       .then(
         (result) => {
+          console.log(result);
           alert("mensage enviado correctamente");
         },
         (error) => {
+          console.log(error);
           alert(error);
         }
       );
