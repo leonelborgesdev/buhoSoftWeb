@@ -1,5 +1,5 @@
-import { FaWhatsappSquare } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { PiInstagramLogoFill } from "react-icons/pi";
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import css from "./RedesSociales.module.scss";
@@ -7,10 +7,10 @@ import css from "./RedesSociales.module.scss";
 export const RedesSociales = () => {
   return (
     <div className={css.containerredessociales}>
-      <FaTwitter size={25} color="black" />
-      <FaFacebook size={25} color="black" />
-      <FaWhatsappSquare size={25} color="black" />
-      <FaInstagram size={25} color="black" />
+      <FaTwitter size={35} color="black" />
+      <FaFacebook size={35} color="black" />
+      <IoLogoWhatsapp size={35} color="black" />
+      <PiInstagramLogoFill size={35} color="black" />
     </div>
   );
 };
